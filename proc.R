@@ -1,5 +1,5 @@
 library(BCC)
-synapseLogin('vmmorozov@gmail.com','')
+synapseLogin('','')
 d2=loadMetabricTrainingData()
 d1=loadMetabricTrainingData_federation()
 sum(featureNames(d1[[1]]) %in% featureNames(d1[[2]]))
